@@ -13,7 +13,7 @@ export default function App() {
   }, [x]);
   useEffect(() => {
     setZ(z + 1);
-  }, [y]);
+  }, [x, y]);
   return (
     <div className="App">
       <div>
